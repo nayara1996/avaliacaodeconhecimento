@@ -1,0 +1,18 @@
+programa
+
+{
+	funcao inicio()
+	{
+		inteiro primnum, segnum
+		escreva("Informe um número: ")
+		leia(primnum)
+		escreva("Informe mais um número: ")
+		leia(segnum)
+		
+		escreva ("\nVamos ver qual é a soma, subtração, divisão e multiplicação desses números?!") 
+		escreva ("\nA soma de ambos os números é: ",primnum+segnum) 
+		escreva ("\nA subtração de ambos os números é: ",primnum-segnum)
+		escreva ("\nA divisão de ambos os números é: ",primnum/segnum)
+		escreva ("\nA multiplicação de ambos os números é: ",primnum*segnum)
+    }
+}
